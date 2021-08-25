@@ -11,5 +11,8 @@
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
+<P>  My name is ${myName}. </P>
+<P>  My Home is ${myHome}. </P>
+<P>  My Mobile is ${myMobile}. </P>
 </body>
 </html>
