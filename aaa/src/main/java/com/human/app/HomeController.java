@@ -79,7 +79,9 @@ public class HomeController {
 		}
 	}
 	@RequestMapping(value = "/today/{address}/{userid}")
-	public String showNumber() {
-		return null;
+	public String showNumber(@PathVariable String userid,@PathVariable String address,Model model) {
+		model.addAttribute("uid",userid);
+		model.addAttribute("addr",address);
+		return "today";
 	}
 }
